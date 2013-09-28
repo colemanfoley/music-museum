@@ -4,19 +4,32 @@
    Author's custom styles
    ========================================================================== */
 
+body { 
+	background-image: url('http://missrosen.files.wordpress.com/2010/05/312a_43.jpg');
+	background-repeat: no-repeat;
+	opacity:0.9;
+}
 
+.form-control {
+	width: 85%;
+	display: inline-block;
+}
 
+#museum-container { 
+	margin: 10px; 
+}
 
+.item { 
+	margin: 5px; 
+	padding: 10px; 
+	border:solid 1px #fff9ca;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	color: #000000;
+	background-color: #ffffff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer p { 
+	color: #ffffff;
+}
