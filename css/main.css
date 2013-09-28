@@ -5,9 +5,13 @@
    ========================================================================== */
 
 body { 
-	background-image: url('http://missrosen.files.wordpress.com/2010/05/312a_43.jpg');
+/*	background-image: url('http://missrosen.files.wordpress.com/2010/05/312a_43.jpg');*/
 	background-repeat: no-repeat;
 	opacity:0.9;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .form-control {
@@ -30,6 +34,12 @@ body {
 	background-color: #ffffff;
 }
 
-footer p { 
-	color: #ffffff;
+footer p { color: #ffffff; }
+
+.white { color: #ffffff;}
+
+.jumbotron { 
+	margin: 10px 0px; 
+	padding: 30px;
+	text-align: center; 
 }
